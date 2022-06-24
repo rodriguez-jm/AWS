@@ -13,6 +13,9 @@ variable "private_Subnet_Vm_Ami" {
 variable "private_Subnet_Vm_Name" {
 }
 
+variable "private_To_Internet_Route_Table_Name_Tag" {
+}
+
 variable "public_Subnet_Cidr_Block" {
 }
 

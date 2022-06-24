@@ -119,7 +119,7 @@ resource "aws_route_table" "private_To_Internet" {
   }
 
   tags = {
-    Name = "Route-To-internet"
+    Name = var.private_To_Internet_Route_Table_Name_Tag
   }
 
   depends_on = [
